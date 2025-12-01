@@ -1,0 +1,28 @@
+﻿{
+  "repository": "my-raw-files",
+  "owner": "harperrichardjr",
+  "description": "Raw file hosting service via GitHub",
+  "files": [
+    {
+      "name": "config.json",
+      "url": "https://raw.githubusercontent.com/harperrichardjr/my-raw-files/main/config.json",
+      "description": "Main configuration file"
+    },
+    {
+      "name": "data.txt",
+      "url": "https://raw.githubusercontent.com/harperrichardjr/my-raw-files/main/data.txt",
+      "description": "Sample text data"
+    },
+    {
+      "name": "files/sample.txt",
+      "url": "https://raw.githubusercontent.com/harperrichardjr/my-raw-files/main/files/sample.txt",
+      "description": "File in subdirectory"
+    }
+  ],
+  "usage": {
+    "curl": "curl https://raw.githubusercontent.com/harperrichardjr/my-raw-files/main/config.json",
+    "javascript": "fetch('https://raw.githubusercontent.com/harperrichardjr/my-raw-files/main/config.json')",
+    "python": "import requests; requests.get('https://raw.githubusercontent.com/harperrichardjr/my-raw-files/main/config.json')"
+  },
+  "last_updated": "2025-12-01T15:37:39Z"
+}
