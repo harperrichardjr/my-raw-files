@@ -1,0 +1,11 @@
+﻿{
+  "service": "raw-files",
+  "owner": "harperrichardjr",
+  "endpoints": {
+    "config": "https://raw.githubusercontent.com/harperrichardjr/my-raw-files/main/config.json",
+    "data": "https://raw.githubusercontent.com/harperrichardjr/my-raw-files/main/data.txt",
+    "sample": "https://raw.githubusercontent.com/harperrichardjr/my-raw-files/main/files/sample.txt",
+    "users": "https://raw.githubusercontent.com/harperrichardjr/my-raw-files/main/data/users.csv"
+  },
+  "timestamp": "$(Get-Date -Format 'yyyy-MM-ddTHH:mm:ssZ')"
+}
